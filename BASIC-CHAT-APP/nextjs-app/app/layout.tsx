@@ -31,7 +31,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html>
         <head />
-        <body>{children}</body>
+        <body>
+          <h1>Ollama Basic ChatApp</h1>
+          <h3>This is a Basic Chat bot, an extension of Ollama LLM, llama3 param.</h3>
+          {children}
+        </body>
       </html>
     </>
   );
